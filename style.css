@@ -23,9 +23,8 @@ nav a{
     font-size: 10px;
     font-family: "Vend Sans", sans-serif;
 }
-img[alt="Logo de l'entreprise"]{
+header img {
     width: 80px;
-    
 }
 .btnC{
     padding: 10px 20px;
@@ -54,7 +53,7 @@ a{
     color: black;
 }
 section.hero{
-    background-image: url('/assets/architecte-interieur/illustration-plan.jpg');
+    background-image: url('assets/architecte-interieur/illustration-plan.jpg');
     background-size: cover;
     filter: brightness(90%);
     background-position: center;
@@ -170,3 +169,79 @@ li {
     max-width: 250px;
     margin-top: 20px;
 }
+.services {
+    background-image: url(assets/architecte-interieur/projets/devanture-boutique.jpg);
+    background-size: cover;
+    
+}
+.services h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 42px;
+    text-align: center;
+
+}
+.box-services h3 {
+    color:#1E1D26;
+    margin-top: -30px;
+}
+.box-services p {
+    color:#3f3d52;
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: "Vend Sans", sans-serif;
+    font-weight: regular;
+    margin-top: -12px;
+}
+.BoxService-1 {
+    background:#F2F0D5;
+    border-radius:25px 0 0 25px;
+    padding: 30px;
+    margin-left: 20%;
+    height: 50px;
+    text-align: end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.BoxService-1 a{
+    margin-left: 140px;
+    margin-right: 80px;
+}
+.BoxService-2 {
+    background:#F2F0D5;
+    border-radius:0 25px 25px 0;
+    padding: 30px;
+    margin-right: 20%;
+    height: 50px;
+    justify-self:right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.BoxService-3 {
+    background:#F2F0D5;
+    border-radius:25px 0 0 25px;
+    padding: 30px;
+    margin-left: 20%;
+    height: 50px;
+    text-align: end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
