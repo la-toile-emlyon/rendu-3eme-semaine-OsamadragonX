@@ -172,7 +172,7 @@ li {
 .services {
     background-image: url(assets/architecte-interieur/projets/devanture-boutique.jpg);
     background-size: cover;
-    
+    height: 500px;
 }
 .services h2 {
     margin: 0;
@@ -184,14 +184,18 @@ li {
 .box-services h3 {
     color:#1E1D26;
     margin-top: -30px;
+    font-size: 23px;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
 }
 .box-services p {
     color:#3f3d52;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5;
     font-family: "Vend Sans", sans-serif;
     font-weight: regular;
     margin-top: -12px;
+    margin-bottom: -8px;
 }
 .BoxService-1 {
     background:#F2F0D5;
@@ -204,8 +208,8 @@ li {
     margin-bottom: 20px;
 }
 .BoxService-1 a{
-    margin-left: 140px;
-    margin-right: 80px;
+    margin-left: 5px;
+    margin-right: 275px;
 }
 .BoxService-2 {
     background:#F2F0D5;
@@ -217,6 +221,10 @@ li {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.BoxService-2 a{
+    margin-left: 275px;
+    margin-right: 5px;
+}
 .BoxService-3 {
     background:#F2F0D5;
     border-radius:25px 0 0 25px;
@@ -227,7 +235,10 @@ li {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+.BoxService-3 a{
+    margin-left: 5px;
+    margin-right: 275px;
+}
 
 
 
